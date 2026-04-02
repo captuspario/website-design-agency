@@ -78,7 +78,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `creative-director`, `ceo`, and `wordpress-builder` once synthesis is approved
+- Usual next owner(s): `creative-director` first, with likely downstream routing to `project-manager`, `ceo`, and later `wordpress-builder` once synthesis is approved
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility

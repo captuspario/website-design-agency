@@ -62,7 +62,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `report-writer`, `ceo`, and `project-manager` for final handover decisions
+- Usual next owner(s): `technical-qa-reviewer` first, with likely downstream routing to `report-writer`, `project-manager`, or `ceo` for final handover decisions
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility

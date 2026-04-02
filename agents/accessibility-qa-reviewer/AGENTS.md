@@ -61,7 +61,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `wordpress-builder`, `project-manager`, and `handover-reviewer` depending on whether fixes or sign-off are needed
+- Usual next owner(s): `technical-qa-reviewer` first, with likely downstream routing to `wordpress-builder`, `project-manager`, or `handover-reviewer`
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility

@@ -64,7 +64,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `ux-designer`, `ui-designer`, and `product-designer`
+- Usual next owner(s): `product-designer` first, with likely downstream routing to `ux-designer`, `ui-designer`, or `creative-director`
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility

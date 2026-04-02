@@ -64,7 +64,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `content-messaging-strategist`, `information-architect`, and `project-manager`
+- Usual next owner(s): `business-context-analyst` first, with likely downstream routing to `content-messaging-strategist`, `information-architect`, or `project-manager`
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility

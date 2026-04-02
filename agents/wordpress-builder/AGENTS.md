@@ -74,7 +74,7 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 ## Default Handoff
 
-- Usual next owner(s): `seo-analyst`, `analytics-checker`, `ux-qa-reviewer`, `accessibility-qa-reviewer`, `technical-qa-reviewer`, and `handover-reviewer` via `project-manager`
+- Usual next owner(s): `project-manager` first after production coordination, with likely downstream routing to `technical-qa-reviewer` and the broader quality team
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
 
 ## Reporting Responsibility
