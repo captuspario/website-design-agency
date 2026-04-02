@@ -23,6 +23,7 @@ function parseArgs(argv) {
 function kebab(value) {
   return String(value || "")
     .trim()
+    .replace(/\bWordPress\b/g, "wordpress")
     .replace(/([a-z0-9])([A-Z])/g, "$1-$2")
     .replace(/[^a-zA-Z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
