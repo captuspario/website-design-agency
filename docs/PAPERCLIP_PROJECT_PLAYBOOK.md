@@ -24,6 +24,8 @@ Do not try to run the workflow from the project description alone. The project d
 
 Start each website engagement with one master coordination issue assigned to `project-manager`, then create or allow creation of the main phase issues.
 
+If the workflow needs stronger continuity or the project-manager stops too early, assign a CEO oversight issue using [docs/CEO_EXECUTION_BRIEF.md](/Users/tino/Projects/website%20design%20agency/docs/CEO_EXECUTION_BRIEF.md).
+
 Recommended issues:
 
 1. Business context and intake
@@ -52,7 +54,7 @@ Do not create tasks by default for every issue.
 - `project-manager`: orchestrates the workflow, issue creation, sequencing, and blockers
 - specialists: produce the substantive work inside their role boundaries
 - `product-designer`: primary synthesis role across strategy, IA, UX, and UI
-- `ceo`: approval, sequencing, and escalation gate, not default worker
+- `ceo`: approval, sequencing, escalation gate, and executive continuity controller when the workflow stalls
 
 ## Approval model
 
