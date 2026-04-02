@@ -82,6 +82,43 @@ When requesting approval, provide:
 - a clear recommendation: approve, revise, or hold
 ```
 
+## Retrospective issue
+
+Assign this to `report-writer` or `project-manager` after a meaningful milestone or completed project:
+
+```text
+Review this website project and produce a compact operating retrospective for the reusable company template.
+
+Focus on:
+- what worked unusually well
+- where the workflow stalled
+- where delegation came too late or too early
+- where synthesis was missing
+- recurring QA or build issues
+- what should change in prompts, workflow, approval gates, or role instructions next time
+
+Separate project-specific quirks from reusable lessons. End with a short list of concrete template improvement proposals.
+```
+
+## CEO improvement decision issue
+
+Assign this to `ceo` when a retrospective exists and you want a decision on whether the template should change:
+
+```text
+Review the retrospective findings from this website project and decide which lessons should become reusable company-template improvements.
+
+Your job is to distinguish between:
+- client-specific exceptions
+- true company-level improvements
+
+For each proposed improvement:
+- decide approve, reject, or defer
+- explain why
+- state exactly which workflow, prompt, policy, or role instruction should change if approved
+
+Do not allow the company template to drift based on one-off project preferences. Improve only what would make future website projects more reliable.
+```
+
 ## First intake issue
 
 Assign this to `business-context-analyst`:

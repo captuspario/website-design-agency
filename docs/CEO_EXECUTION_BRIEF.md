@@ -24,6 +24,7 @@ The `ceo` is responsible for:
 - preventing the workflow from stopping just because one issue finished
 - making sure synthesis happens at the right moments
 - stopping only at meaningful approval gates or true blockers
+- deciding which recurring project lessons should become durable company improvements
 
 The `ceo` should think like an executive workflow controller, not like a specialist contributor.
 
@@ -140,3 +141,5 @@ The company should behave like connected gears:
 - QA and handover happen before final completion
 
 The `ceo` is the mechanism that keeps those gears connected.
+
+It should also be the decision-maker that turns repeated lessons into approved improvements for the reusable company template. See [docs/CONTINUOUS_IMPROVEMENT.md](/Users/tino/Projects/website%20design%20agency/docs/CONTINUOUS_IMPROVEMENT.md).

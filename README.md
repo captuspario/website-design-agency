@@ -113,6 +113,7 @@ For the recommended real-world operating pattern inside Paperclip, also see:
 
 - [docs/PAPERCLIP_PROJECT_PLAYBOOK.md](/Users/tino/Projects/website%20design%20agency/docs/PAPERCLIP_PROJECT_PLAYBOOK.md)
 - [docs/PROJECT_KICKOFF_PROMPTS.md](/Users/tino/Projects/website%20design%20agency/docs/PROJECT_KICKOFF_PROMPTS.md)
+- [docs/CONTINUOUS_IMPROVEMENT.md](/Users/tino/Projects/website%20design%20agency/docs/CONTINUOUS_IMPROVEMENT.md)
 - [docs/AGENT_RUNTIME_PROFILES.md](/Users/tino/Projects/website%20design%20agency/docs/AGENT_RUNTIME_PROFILES.md)
 - [docs/TROUBLESHOOTING.md](/Users/tino/Projects/website%20design%20agency/docs/TROUBLESHOOTING.md)
 

@@ -73,6 +73,19 @@ At each gate, the `ceo` should summarise:
 - major risks or open questions
 - clear recommendation: approve, revise, or hold
 
+## Continuous improvement model
+
+The company should improve through explicit feedback loops, not hidden memory.
+
+During and after each project:
+
+- capture recurring stalls, weak handoffs, rework patterns, and QA failures
+- use `report-writer` or `project-manager` to produce a compact retrospective
+- use `ceo` to decide which lessons should become reusable template improvements
+- promote approved improvements into the Git-backed company template
+
+See [docs/CONTINUOUS_IMPROVEMENT.md](/Users/tino/Projects/website%20design%20agency/docs/CONTINUOUS_IMPROVEMENT.md).
+
 ## Local build workspace
 
 Keep live project coordination in Paperclip first.
