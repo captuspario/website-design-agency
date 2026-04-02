@@ -105,6 +105,10 @@ If you need a different API base or profile, run `npx -y paperclipai company imp
 - Run `npx -y paperclipai company import . --dry-run`.
 - Review the preview output before a real import.
 
+## Local runtime bootstrap
+
+This repo keeps the import package vendor-neutral. If you want imported agents switched to `opencode_local` with an OpenRouter model map, use the local bootstrap in [docs/LOCAL_RUNTIME_SETUP.md](/Users/tino/Projects/website%20design%20agency/docs/LOCAL_RUNTIME_SETUP.md).
+
 ## How to use this company per client project
 
 1. Copy or fork this repo for the client engagement.

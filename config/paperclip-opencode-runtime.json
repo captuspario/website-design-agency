@@ -1,0 +1,90 @@
+{
+  "defaults": {
+    "adapterType": "opencode_local",
+    "apiBase": "http://localhost:3100/api"
+  },
+  "agents": {
+    "ceo": {
+      "model": "openrouter/anthropic/claude-opus-4.5",
+      "budgetMonthlyCents": 1500,
+      "pauseAfterConfigure": true,
+      "notes": "Final escalation and scope judgement. Keep paused until lower-cost agents pass a smoke test."
+    },
+    "creative-director": {
+      "model": "openrouter/anthropic/claude-opus-4.5",
+      "budgetMonthlyCents": 2000,
+      "notes": "Premium design-quality gate."
+    },
+    "product-designer": {
+      "model": "openrouter/anthropic/claude-opus-4.5",
+      "budgetMonthlyCents": 2500,
+      "notes": "Primary synthesis role."
+    },
+    "project-manager": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 800,
+      "notes": "Best first smoke-test agent."
+    },
+    "ux-researcher": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 900
+    },
+    "content-messaging-strategist": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 900
+    },
+    "information-architect": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 800
+    },
+    "ux-designer": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 800
+    },
+    "ui-designer": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 900
+    },
+    "seo-analyst": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 500
+    },
+    "ux-qa-reviewer": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 500
+    },
+    "accessibility-qa-reviewer": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 500
+    },
+    "handover-reviewer": {
+      "model": "openrouter/anthropic/claude-sonnet-4.5",
+      "budgetMonthlyCents": 400
+    },
+    "business-context-analyst": {
+      "model": "openrouter/openai/gpt-5-mini",
+      "budgetMonthlyCents": 400
+    },
+    "market-competitor-analyst": {
+      "model": "openrouter/openai/gpt-5-mini",
+      "budgetMonthlyCents": 400
+    },
+    "analytics-checker": {
+      "model": "openrouter/openai/gpt-5-mini",
+      "budgetMonthlyCents": 250
+    },
+    "report-writer": {
+      "model": "openrouter/openai/gpt-5-mini",
+      "budgetMonthlyCents": 300
+    },
+    "wordpress-builder": {
+      "model": "openrouter/openai/gpt-5.1",
+      "budgetMonthlyCents": 3000,
+      "notes": "Primary build role. Give it the active client-project cwd, not the company repo."
+    },
+    "technical-qa-reviewer": {
+      "model": "openrouter/openai/gpt-5.1",
+      "budgetMonthlyCents": 1200
+    }
+  }
+}
