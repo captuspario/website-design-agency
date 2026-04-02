@@ -6,7 +6,13 @@ That is by design. The Agent Companies specification says vendor-specific adapte
 
 ## Goal
 
-Switch the imported company from Paperclip's default imported adapter state to `opencode_local` with OpenRouter-backed models and per-agent budgets.
+Switch the imported company from Paperclip's default imported adapter state to the preferred runtime map.
+
+Default local MVP recommendation:
+
+- `ceo` on `codex_local`
+- specialists on `opencode_local`
+- OpenRouter backing the OpenCode specialists
 
 ## Prerequisites
 
@@ -93,6 +99,10 @@ Recommended order:
 5. only then unpause `ceo`
 
 ## Default runtime map
+
+The bootstrap file in this repo sets every imported agent to `opencode_local`. That is useful for initial setup, testing, and fully OpenCode-backed runs.
+
+After the bootstrap succeeds, you can optionally switch the `ceo` back to `codex_local` while leaving the rest of the specialists on `opencode_local`. That hybrid arrangement worked well in local MVP testing.
 
 ### Premium
 

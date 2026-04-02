@@ -109,13 +109,20 @@ If you need a different API base or profile, run `npx -y paperclipai company imp
 
 This repo keeps the import package vendor-neutral. If you want imported agents switched to `opencode_local` with an OpenRouter model map, use the local bootstrap in [docs/LOCAL_RUNTIME_SETUP.md](/Users/tino/Projects/website%20design%20agency/docs/LOCAL_RUNTIME_SETUP.md).
 
+For the recommended real-world operating pattern inside Paperclip, also see:
+
+- [docs/PAPERCLIP_PROJECT_PLAYBOOK.md](/Users/tino/Projects/website%20design%20agency/docs/PAPERCLIP_PROJECT_PLAYBOOK.md)
+- [docs/PROJECT_KICKOFF_PROMPTS.md](/Users/tino/Projects/website%20design%20agency/docs/PROJECT_KICKOFF_PROMPTS.md)
+- [docs/AGENT_RUNTIME_PROFILES.md](/Users/tino/Projects/website%20design%20agency/docs/AGENT_RUNTIME_PROFILES.md)
+- [docs/TROUBLESHOOTING.md](/Users/tino/Projects/website%20design%20agency/docs/TROUBLESHOOTING.md)
+
 ## How to use this company per client project
 
-1. Copy or fork this repo for the client engagement.
-2. Add client-specific project notes under `docs/` or a client project folder.
-3. Keep the shared company roles and skills stable unless the operating model truly changes.
-4. Run the work through the approval gates instead of skipping directly to build.
-5. Import the adapted repo into Paperclip for that client project.
+1. Import this repo into Paperclip as a new company.
+2. Create one Paperclip project per website/client engagement.
+3. Run the engagement primarily through Paperclip projects and issues.
+4. Keep the shared company roles and skills stable unless the operating model truly changes.
+5. Create a separate local build workspace only when implementation becomes real.
 
 ## WordPress baseline
 

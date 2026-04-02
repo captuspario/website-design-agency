@@ -1,0 +1,112 @@
+# Project Kickoff Prompts
+
+These prompts are designed for the real Paperclip workflow: projects provide context, issues do the work.
+
+## Project description
+
+Use this as the project description:
+
+```text
+Website redesign and rebuild project for www.clients-old-website.com using the Website Design Agency workflow.
+
+This engagement is for a simple SMB service website and should stay tightly scoped to strategy, IA, UX/UI direction, implementation planning, QA, and handover. Do not drift into ecommerce, custom app logic, memberships, LMS, multilingual scope, or live production editing.
+```
+
+Replace the URL with the real source site.
+
+## Master coordination issue
+
+Assign this to `project-manager`:
+
+```text
+Run this website engagement through the Website Design Agency workflow with as much autonomy as possible.
+
+Use the project context and source website as the basis for the work. Create and manage the necessary issue structure, assign the appropriate specialists, and progress through the workflow automatically where reasonable.
+
+Operating rules:
+- do not stop for human input on minor or routine decisions
+- proceed autonomously through intake, business context, competitor analysis, audience and journey insight, messaging, IA, and UX/UI direction
+- use the defined company roles properly
+- use the project-manager for coordination
+- use the product-designer as the primary synthesis role
+- use the CEO for executive review, sequencing, and approval decisions
+- stop and request board operator approval only when the CEO believes a meaningful approval gate has been reached
+- do not begin implementation until the CEO has requested and received approval to proceed
+- do not drift into ecommerce, custom app logic, memberships, LMS, multilingual work, deep CRM integration, or live production editing
+
+Approval gates that should trigger CEO review:
+- strategic synthesis is ready
+- IA/page blueprint is ready
+- UX/UI direction is ready
+- build readiness is ready
+- QA summary is ready for final sign-off
+
+When stopping for approval, the CEO should provide:
+- a short summary of what is ready
+- the key decisions made
+- the main risks or open questions
+- a clear recommendation: approve, revise, or hold
+
+Until such a gate is reached, continue progressing the work autonomously.
+```
+
+## First intake issue
+
+Assign this to `business-context-analyst`:
+
+```text
+Start the first phase of this website engagement using the source website for this project as the primary reference.
+
+This issue is for business context, website intake, and strategic starting assumptions. The goal is to establish enough shared understanding for later competitor analysis, audience insight, messaging, IA, and design work.
+
+What to do:
+- review the existing source website for this project
+- infer what the business appears to offer
+- identify likely service categories
+- identify likely target audience segments
+- identify current trust signals and obvious trust gaps
+- identify likely primary conversion actions
+- identify obvious structural, messaging, or credibility weaknesses
+- list the most important unknowns that need confirmation
+
+Output requirements:
+- keep the output practical and decision-oriented
+- do not write vague general audit commentary
+- distinguish observed facts from inference
+- focus on what later agents will need in order to do strong work
+- produce a compact but high-signal intake summary that can support the next issues
+```
+
+## Competitor issue
+
+Assign this to `market-competitor-analyst`:
+
+```text
+Use the source website for this project as the starting point and conduct a competitor and category analysis for this engagement.
+
+Focus on:
+- likely direct competitors
+- adjacent competitors if useful
+- category patterns in structure, messaging, and trust cues
+- weak clichés and overused patterns
+- opportunities for this website to be clearer, more credible, or more differentiated
+
+Keep the output practical and decision-oriented. Do not turn this into broad market research. The goal is to support later messaging, IA, UX, and UI decisions.
+```
+
+## Audience issue
+
+Assign this to `ux-researcher`:
+
+```text
+Using the source website for this project and the developing project context, infer likely audience groups, key needs, concerns, decision criteria, and likely journey paths.
+
+Focus on:
+- likely audience segments
+- what they are trying to solve
+- likely objections or anxieties
+- trust cues they may need
+- likely CTA paths and journey expectations
+
+Keep the output lightweight and decision-oriented. Mark inference clearly where certainty is limited. The goal is to support messaging, IA, UX, and design decisions.
+```
