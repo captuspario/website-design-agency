@@ -29,6 +29,7 @@ Start each website engagement with one master coordination issue assigned to `pr
 If the workflow needs stronger continuity or the project-manager stops too early, assign a CEO oversight issue using [docs/CEO_EXECUTION_BRIEF.md](/Users/tino/Projects/website%20design%20agency/docs/CEO_EXECUTION_BRIEF.md).
 
 Make all meaningful issue outputs follow the handoff expectations in [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md) so each phase explicitly names the next likely owner instead of stopping ambiguously.
+Use [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md) so completed upstream outputs automatically trigger the next phase instead of leaving the project idle.
 
 Recommended issues:
 

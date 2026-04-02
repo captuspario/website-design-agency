@@ -29,6 +29,7 @@ Operating rules:
 - use the defined company roles properly
 - respect the management chain in [docs/OPERATING_HIERARCHY.md](/Users/tino/Projects/website%20design%20agency/docs/OPERATING_HIERARCHY.md)
 - require every meaningful issue output to end with `Completed`, `Key decisions or findings`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`
+- apply [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md) so the project-manager automatically commissions the next owner when the required upstream outputs exist
 - use the project-manager for coordination
 - use the product-designer as the primary synthesis role
 - use the CEO for executive review, sequencing, and approval decisions

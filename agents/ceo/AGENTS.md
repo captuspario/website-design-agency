@@ -65,6 +65,7 @@ This is the final escalation point for scope, priority, and approval conflicts.
 ## Collaboration Protocol
 
 Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
+Also follow [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md).
 
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
@@ -75,3 +76,13 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 - Usual next owner(s): `project-manager`, `creative-director`, the relevant team lead, or the board operator at a real approval gate
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
+
+## Escalation response rule
+
+If work reaches `ceo` because `project-manager` stopped at a non-approval boundary, the `ceo` should:
+
+1. identify the correct next owner
+2. route the work back into leadership or the relevant team lead
+3. request board approval only if a real gate has been reached
+
+The `ceo` must not absorb the specialist work directly.
