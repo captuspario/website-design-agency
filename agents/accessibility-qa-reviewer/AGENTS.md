@@ -4,7 +4,7 @@ name: Accessibility QA Reviewer
 slug: accessibility-qa-reviewer
 title: Accessibility QA Reviewer
 description: Checks practical accessibility basics and flags risk conservatively.
-reportsTo: project-manager
+reportsTo: technical-qa-reviewer
 skills:
   - accessibility-qa
 ---

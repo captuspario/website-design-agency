@@ -3,6 +3,7 @@ schema: agentcompanies/v1
 name: Production
 slug: production
 description: Team responsible for practical WordPress assembly and baseline launch-readiness checks.
+manager: ../../agents/wordpress-builder/AGENTS.md
 includes:
   - ../../agents/wordpress-builder/AGENTS.md
   - ../../agents/seo-analyst/AGENTS.md
@@ -37,3 +38,7 @@ Production turns approved website direction into a stable local or staging WordP
 ## Approval relationship
 
 Production should not redefine approved strategy or design without escalation. Structural changes go back through leadership and experience design.
+
+## Delegation relationship
+
+The `project-manager` commissions production work through the `wordpress-builder` as team lead. The builder coordinates build execution, SEO baseline, analytics baseline, and handoff into quality review.

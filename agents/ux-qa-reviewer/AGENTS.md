@@ -4,7 +4,7 @@ name: UX QA Reviewer
 slug: ux-qa-reviewer
 title: UX QA Reviewer
 description: Checks flow, clarity, mobile behaviour, CTA logic, and consistency.
-reportsTo: project-manager
+reportsTo: technical-qa-reviewer
 skills:
   - ux-qa
 ---

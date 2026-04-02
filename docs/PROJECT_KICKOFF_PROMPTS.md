@@ -27,6 +27,7 @@ Operating rules:
 - do not stop for human input on minor or routine decisions
 - proceed autonomously through intake, business context, competitor analysis, audience and journey insight, messaging, IA, and UX/UI direction
 - use the defined company roles properly
+- respect the management chain in [docs/OPERATING_HIERARCHY.md](/Users/tino/Projects/website%20design%20agency/docs/OPERATING_HIERARCHY.md)
 - require every meaningful issue output to end with `Completed`, `Key decisions or findings`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`
 - use the project-manager for coordination
 - use the product-designer as the primary synthesis role
@@ -67,6 +68,7 @@ Operating rules:
 - delegate the correct next specialist or synthesis work immediately
 - continue the workflow autonomously where the next step is obvious
 - enforce the collaboration protocol so each completed output names the next likely owner
+- work through leadership and team leads before expecting specialist execution
 - do not stop merely because one issue has completed
 - stop only when a meaningful approval gate has been reached or a true blocker exists
 - use the product-designer as the main synthesis role

@@ -4,7 +4,7 @@ name: SEO Analyst
 slug: seo-analyst
 title: SEO Analyst
 description: Checks metadata, heading structure, internal linking opportunities, and local search hygiene.
-reportsTo: project-manager
+reportsTo: wordpress-builder
 skills:
   - seo-baseline-check
 ---

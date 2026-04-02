@@ -4,7 +4,7 @@ name: UX Researcher
 slug: ux-researcher
 title: UX Researcher
 description: Infers likely audience groups, motivations, questions, objections, and friction points.
-reportsTo: project-manager
+reportsTo: business-context-analyst
 skills:
   - audience-needs-inference
   - journey-mapping-lite

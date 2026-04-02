@@ -66,6 +66,7 @@ If no reusable lesson appeared, say `None`.
 
 ## Handoff rules
 
+- Route through the relevant team lead when a team lead exists.
 - If the next step is obvious, recommend the next owner explicitly.
 - If multiple outputs need synthesis, route to `product-designer`.
 - If scope, sequencing, or approval is unclear, route to `project-manager`.
@@ -77,6 +78,7 @@ If no reusable lesson appeared, say `None`.
 Do not:
 
 - declare the project complete because your own role finished
+- bypass the reporting line just because a senior agent is available
 - assume another agent will infer the next step without being told
 - hide uncertainty to make work look finished
 - bypass approval gates just to maintain momentum

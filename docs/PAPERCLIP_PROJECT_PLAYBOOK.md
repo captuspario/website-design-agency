@@ -9,6 +9,8 @@ Use this company template in Paperclip as the operating system for live website 
 - Issue: one meaningful workstream or phase
 - Task: optional sub-step when an issue becomes too broad
 
+See [docs/OPERATING_HIERARCHY.md](/Users/tino/Projects/website%20design%20agency/docs/OPERATING_HIERARCHY.md) for the management chain that should govern delegation.
+
 ## Recommended project shape
 
 Create one Paperclip project per website/client. Use the project description for stable context only:
@@ -57,6 +59,13 @@ Do not create tasks by default for every issue.
 - specialists: produce the substantive work inside their role boundaries
 - `product-designer`: primary synthesis role across strategy, IA, UX, and UI
 - `ceo`: approval, sequencing, escalation gate, and executive continuity controller when the workflow stalls
+
+## Management chain
+
+- `ceo` works through leadership, not through direct specialist execution
+- `project-manager` delegates into strategy, production, quality, and reporting through team leads
+- `creative-director` delegates into experience design through `product-designer`
+- team leads delegate to their specialist contributors
 
 All agents should also make the next handoff easier by ending work with:
 

@@ -3,6 +3,7 @@ schema: agentcompanies/v1
 name: Experience Design
 slug: experience-design
 description: Team responsible for synthesis, information architecture, UX structure, and UI direction.
+manager: ../../agents/product-designer/AGENTS.md
 includes:
   - ../../agents/product-designer/AGENTS.md
   - ../../agents/information-architect/AGENTS.md
@@ -46,3 +47,7 @@ Experience Design converts research and content direction into a coherent websit
 ## Approval relationship
 
 The product-designer is the main synthesis role. The creative-director reviews the quality and coherence of the team’s direction before build starts.
+
+## Delegation relationship
+
+The `creative-director` should work through the `product-designer` as team lead. The team lead delegates to IA, UX, and UI specialists, then returns a synthesised package for approval.

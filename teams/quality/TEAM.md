@@ -3,6 +3,7 @@ schema: agentcompanies/v1
 name: Quality
 slug: quality
 description: Team responsible for UX, accessibility, technical, and handover quality checks.
+manager: ../../agents/technical-qa-reviewer/AGENTS.md
 includes:
   - ../../agents/ux-qa-reviewer/AGENTS.md
   - ../../agents/accessibility-qa-reviewer/AGENTS.md
@@ -39,3 +40,7 @@ Quality checks whether the built site is clear, usable, accessible enough for pr
 ## Approval relationship
 
 Quality can block final approval. If QA uncovers structural issues, work returns to the relevant upstream team rather than being patched blindly.
+
+## Delegation relationship
+
+The `project-manager` routes QA through the `technical-qa-reviewer` as quality lead. The quality lead coordinates UX, accessibility, technical, and handover checks and sends structural issues back upstream when needed.

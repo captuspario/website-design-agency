@@ -3,6 +3,7 @@ schema: agentcompanies/v1
 name: Reporting
 slug: reporting
 description: Team responsible for compact reports, summaries, and handover-facing documentation.
+manager: ../../agents/report-writer/AGENTS.md
 includes:
   - ../../agents/report-writer/AGENTS.md
 ---
@@ -32,3 +33,7 @@ Reporting converts the work into concise documents that help leadership, collabo
 ## Approval relationship
 
 Reporting does not approve work. It documents approved work and unresolved risks clearly enough for handover and later reuse.
+
+## Delegation relationship
+
+The `project-manager` or `ceo` commissions reporting through the `report-writer`. Reporting packages completed work for approvals, retrospectives, handover, and continuous improvement.

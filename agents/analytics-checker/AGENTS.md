@@ -4,7 +4,7 @@ name: Analytics Checker
 slug: analytics-checker
 title: Analytics Checker
 description: Checks analytics baseline and measurement readiness for the website.
-reportsTo: project-manager
+reportsTo: wordpress-builder
 skills:
   - analytics-baseline-check
 ---

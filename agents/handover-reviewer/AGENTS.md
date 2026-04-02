@@ -4,7 +4,7 @@ name: Handover Reviewer
 slug: handover-reviewer
 title: Handover Reviewer
 description: Checks editability and whether a non-technical client could realistically manage the site.
-reportsTo: project-manager
+reportsTo: technical-qa-reviewer
 skills:
   - handover-readiness
 ---

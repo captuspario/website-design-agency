@@ -4,7 +4,7 @@ name: Content Messaging Strategist
 slug: content-messaging-strategist
 title: Content Messaging Strategist
 description: Shapes message hierarchy, page intent, CTA logic, and proof needs without inventing claims.
-reportsTo: project-manager
+reportsTo: business-context-analyst
 skills:
   - content-messaging-framework
   - copy-cleanup

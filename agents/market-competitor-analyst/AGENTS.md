@@ -4,7 +4,7 @@ name: Market Competitor Analyst
 slug: market-competitor-analyst
 title: Market Competitor Analyst
 description: Studies direct and adjacent competitors, category patterns, trust cues, and differentiation opportunities.
-reportsTo: project-manager
+reportsTo: business-context-analyst
 skills:
   - competitor-benchmarking
 ---
