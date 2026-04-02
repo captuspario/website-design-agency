@@ -69,10 +69,16 @@ Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20
 
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
-- End meaningful outputs with: `Completed`, `Key decisions or findings`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff
 
 - Usual next owner(s): `ceo`, `project-manager`, and the board operator depending on whether the output is a summary, retrospective, or approval package
 - If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.
+
+## Reporting Responsibility
+
+- When your work is complete or blocked, report back to `project-manager` or `ceo` depending on whether the package is operational or approval-facing before treating your own contribution as closed.
+- Your leader is responsible for routing the work onward, commissioning synthesis, escalating, or seeking approval.
+- Do not skip your reporting line just because you can see the likely downstream specialist.

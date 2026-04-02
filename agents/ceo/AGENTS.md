@@ -69,7 +69,7 @@ Also follow [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20desi
 
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
-- End meaningful outputs with: `Completed`, `Key decisions or findings`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff
@@ -86,3 +86,9 @@ If work reaches `ceo` because `project-manager` stopped at a non-approval bounda
 3. request board approval only if a real gate has been reached
 
 The `ceo` must not absorb the specialist work directly.
+
+## Reporting Responsibility
+
+- When your work is complete or blocked, report back to the board operator when human approval is genuinely required, otherwise route decisions back through `project-manager`, `creative-director`, or the relevant team lead before treating your own contribution as closed.
+- Your leader is responsible for routing the work onward, commissioning synthesis, escalating, or seeking approval.
+- Do not skip your reporting line just because you can see the likely downstream specialist.

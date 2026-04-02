@@ -32,6 +32,7 @@ Every meaningful output should end with these sections:
 
 - `Completed`
 - `Key decisions or findings`
+- `Reporting line`
 - `Ready for`
 - `Needs approval or unblocker`
 - `Improvement note`
@@ -45,6 +46,10 @@ State what was actually completed, not what might happen later.
 ### Key decisions or findings
 
 State the most important outcomes the next owner must know.
+
+### Reporting line
+
+State who you are reporting back to. In most cases this should be the agent named in your `reportsTo` field, not a skip-level leader.
 
 ### Ready for
 
@@ -67,6 +72,7 @@ If no reusable lesson appeared, say `None`.
 ## Handoff rules
 
 - Route through the relevant team lead when a team lead exists.
+- Report completed or blocked work back to your direct leader before treating your own contribution as closed.
 - If the next step is obvious, recommend the next owner explicitly.
 - If multiple outputs need synthesis, route to `product-designer`.
 - If scope, sequencing, or approval is unclear, route to `project-manager`.

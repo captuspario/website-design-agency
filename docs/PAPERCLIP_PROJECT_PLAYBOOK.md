@@ -72,6 +72,7 @@ All agents should also make the next handoff easier by ending work with:
 
 - `Completed`
 - `Key decisions or findings`
+- `Reporting line`
 - `Ready for`
 - `Needs approval or unblocker`
 - `Improvement note`
