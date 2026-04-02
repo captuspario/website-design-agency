@@ -50,12 +50,29 @@ OpenCode stores provider auth locally. For local MVP, that is the simplest place
 
 ## Step 3: Find the imported company ID
 
-In Paperclip:
+The most reliable way is via the local Paperclip API.
 
-- open the imported company
-- copy the company ID from the UI or API
+List companies:
 
-If you use the API directly, list companies and inspect the returned IDs.
+```bash
+curl -sS http://127.0.0.1:3100/api/companies | jq '.[] | {id,name}'
+```
+
+Then verify which candidate company is the real imported agency by checking the agent count:
+
+```bash
+curl -sS http://127.0.0.1:3100/api/companies/<company-id>/agents | jq 'length'
+```
+
+For this template, the correct imported company should return `19`.
+
+If multiple companies share the same name, use the one whose `/agents` endpoint returns the expected count.
+
+Important:
+
+- do not include angle brackets when running the bootstrap command
+- wrong: `--company-id <uuid>`
+- right: `--company-id uuid`
 
 ## Step 4: Apply the runtime map
 
@@ -68,7 +85,7 @@ Dry run first:
 
 ```bash
 node scripts/apply-paperclip-opencode-runtime.mjs \
-  --company-id <company-id> \
+  --company-id COMPANY_ID_HERE \
   --cwd /ABSOLUTE/PATH/TO/CLIENT-PROJECT \
   --dry-run
 ```
@@ -77,7 +94,7 @@ Apply for real:
 
 ```bash
 node scripts/apply-paperclip-opencode-runtime.mjs \
-  --company-id <company-id> \
+  --company-id COMPANY_ID_HERE \
   --cwd /ABSOLUTE/PATH/TO/CLIENT-PROJECT \
   --pause-marked
 ```

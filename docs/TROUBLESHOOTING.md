@@ -49,6 +49,27 @@ Check:
 - OpenRouter is connected in OpenCode
 - the bootstrap script ran without validation errors
 
+## Bootstrap script says `Missing imported agents for slugs ...`
+
+This usually means the wrong company ID was used.
+
+Check the real imported company and agent count:
+
+```bash
+curl -sS http://127.0.0.1:3100/api/companies | jq '.[] | {id,name}'
+curl -sS http://127.0.0.1:3100/api/companies/COMPANY_ID_HERE/agents | jq 'length'
+```
+
+For this template, the correct company should usually return `19`.
+
+If the agent count is `0`, you likely targeted an empty or incomplete company import.
+If the agent count is small and unrelated, you likely targeted a different company.
+
+Also make sure you did not pass the ID with angle brackets:
+
+- wrong: `--company-id <uuid>`
+- right: `--company-id uuid`
+
 ## `opencode_local` adapter validation fails because `opencode` is missing
 
 Install OpenCode and make sure it is available on `PATH`.
