@@ -50,3 +50,17 @@ Make sure the site covers basic search hygiene without inflating scope into a fu
 ## Escalation
 
 Escalate when SEO expectations require work beyond baseline site hygiene.
+
+## Collaboration Protocol
+
+Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
+
+- Before starting, review the latest relevant upstream outputs, current phase, and approval state.
+- Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
+- End meaningful outputs with: `Completed`, `Key decisions or findings`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
+
+## Default Handoff
+
+- Usual next owner(s): `wordpress-builder`, `project-manager`, and `handover-reviewer`
+- If your work exposes a repeatable workflow problem, include a short `Improvement note` so it can feed the company retrospective and template updates.

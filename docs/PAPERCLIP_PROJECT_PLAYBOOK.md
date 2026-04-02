@@ -26,6 +26,8 @@ Start each website engagement with one master coordination issue assigned to `pr
 
 If the workflow needs stronger continuity or the project-manager stops too early, assign a CEO oversight issue using [docs/CEO_EXECUTION_BRIEF.md](/Users/tino/Projects/website%20design%20agency/docs/CEO_EXECUTION_BRIEF.md).
 
+Make all meaningful issue outputs follow the handoff expectations in [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md) so each phase explicitly names the next likely owner instead of stopping ambiguously.
+
 Recommended issues:
 
 1. Business context and intake
@@ -55,6 +57,14 @@ Do not create tasks by default for every issue.
 - specialists: produce the substantive work inside their role boundaries
 - `product-designer`: primary synthesis role across strategy, IA, UX, and UI
 - `ceo`: approval, sequencing, escalation gate, and executive continuity controller when the workflow stalls
+
+All agents should also make the next handoff easier by ending work with:
+
+- `Completed`
+- `Key decisions or findings`
+- `Ready for`
+- `Needs approval or unblocker`
+- `Improvement note`
 
 ## Approval model
 
