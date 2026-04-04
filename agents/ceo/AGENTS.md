@@ -64,12 +64,11 @@ This is the final escalation point for scope, priority, and approval conflicts.
 
 ## Collaboration Protocol
 
-Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
-Also follow [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md).
-
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
 - End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- If work reaches you before a real approval gate, decide whether to reroute, unblock, rescope, or ask the board. Do not absorb the specialist work.
+- Push work back through `project-manager`, `creative-director`, or the relevant team lead whenever a lower level of the chain can continue safely.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff

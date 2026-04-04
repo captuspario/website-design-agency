@@ -65,11 +65,11 @@ Escalate when the requested outcome requires live production editing, unsupporte
 
 ## Collaboration Protocol
 
-Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
-
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
 - End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- Report complete or blocked work back through your direct leader before treating your contribution as closed.
+- Treat SEO and analytics checks as production-adjacent inputs that should be consolidated before routing to QA leadership.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff

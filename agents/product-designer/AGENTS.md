@@ -69,11 +69,11 @@ Escalate when upstream strategy is inconsistent or when requested design decisio
 
 ## Collaboration Protocol
 
-Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
-
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
 - End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- Report complete or blocked work back through your direct leader before treating your contribution as closed.
+- When multiple research or design streams need synthesis, consolidate them into a coherent direction before routing onward.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff

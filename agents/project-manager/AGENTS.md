@@ -65,12 +65,13 @@ Escalate to leadership when priorities conflict, approvals stall, or scope press
 
 ## Collaboration Protocol
 
-Follow [docs/COLLABORATION_PROTOCOL.md](/Users/tino/Projects/website%20design%20agency/docs/COLLABORATION_PROTOCOL.md).
-Also follow [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md).
-
 - Before starting, review the latest relevant upstream outputs, current phase, and approval state.
 - Stay inside your role, but make the next handoff explicit instead of ending with a vague completion.
 - End meaningful outputs with: `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`.
+- Treat a named handoff plus available upstream inputs as a routing instruction, not as a passive summary.
+- When business context, competitor analysis, and audience and journey insight all exist with no blocker, immediately commission `product-designer` for synthesis.
+- When messaging is materially ready, commission `information-architect` and `ux-designer`.
+- When IA and UX are coherent enough for visual direction, commission `ui-designer` and route through `product-designer` for synthesis.
 - If the next step is unclear, route to `project-manager`. If a real approval gate has been reached, route to `ceo`.
 
 ## Default Handoff

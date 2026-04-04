@@ -27,15 +27,20 @@ Operating rules:
 - do not stop for human input on minor or routine decisions
 - proceed autonomously through intake, business context, competitor analysis, audience and journey insight, messaging, IA, and UX/UI direction
 - use the defined company roles properly
-- respect the management chain in [docs/OPERATING_HIERARCHY.md](/Users/tino/Projects/website%20design%20agency/docs/OPERATING_HIERARCHY.md)
+- respect the management chain, where `ceo` works through leadership, leadership works through team leads, and team leads delegate to specialists
 - require every meaningful issue output to end with `Completed`, `Key decisions or findings`, `Reporting line`, `Ready for`, `Needs approval or unblocker`, and `Improvement note`
-- apply [docs/STAGE_TRANSITION_RULES.md](/Users/tino/Projects/website%20design%20agency/docs/STAGE_TRANSITION_RULES.md) so the project-manager automatically commissions the next owner when the required upstream outputs exist
+- automatically commission the next owner when the required upstream outputs exist
 - use the project-manager for coordination
 - use the product-designer as the primary synthesis role
 - use the CEO for executive review, sequencing, and approval decisions
 - stop and request board operator approval only when the CEO believes a meaningful approval gate has been reached
 - do not begin implementation until the CEO has requested and received approval to proceed
 - do not drift into ecommerce, custom app logic, memberships, LMS, multilingual work, deep CRM integration, or live production editing
+- specialists should report complete or blocked work back through their direct leader before treating their contribution as closed
+- when business context, competitor analysis, and audience and journey insight all exist with no blocker, commission `product-designer` immediately for synthesis
+- when messaging, proof needs, and CTA logic are strong enough, commission `information-architect` and `ux-designer`
+- when a coherent IA and UX package exists, commission `ui-designer` and route back through `product-designer` for synthesis
+- when a real approval boundary is reached, route to `ceo`; otherwise keep the work moving
 
 Approval gates that should trigger CEO review:
 - strategic synthesis is ready

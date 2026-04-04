@@ -105,3 +105,20 @@ The core runtime stack works without it:
 - OpenRouter
 
 Add Firecrawl later only if deep site crawling becomes necessary.
+
+## Initiation issue fails with `The user rejected permission to use this specific tool call`
+
+If a freshly imported company fails on the first `project-manager` initiation run and the run log shows rejected reads of files under the repo `docs/` directory, the imported template was too dependent on runtime file access.
+
+The safer pattern is:
+
+- keep the operator documentation in the repo for humans
+- embed the critical workflow rules directly in the agent briefs
+- keep the master initiation issue self-contained instead of telling agents to open repo doc paths
+
+If you hit this with an older imported company, the best recovery path is usually:
+
+1. archive the broken imported company
+2. import the latest template from Git again
+3. apply the runtime bootstrap
+4. start a fresh project using the updated master coordination issue
