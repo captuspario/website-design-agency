@@ -10,9 +10,14 @@ Switch the imported company from Paperclip's default imported adapter state to t
 
 Default local MVP recommendation:
 
-- `ceo` on `codex_local`
-- specialists on `opencode_local`
-- OpenRouter backing the OpenCode specialists
+- all imported agents on `opencode_local`
+- OpenRouter backing OpenCode
+- `ceo` paused initially until lower-cost agents pass a smoke test
+
+Optional variation after bootstrap:
+
+- keep most agents on `opencode_local`
+- manually switch `ceo` to a different model or adapter only if you have a deliberate reason
 
 ## Prerequisites
 
@@ -117,9 +122,9 @@ Recommended order:
 
 ## Default runtime map
 
-The bootstrap file in this repo sets every imported agent to `opencode_local`. That is useful for initial setup, testing, and fully OpenCode-backed runs.
+The bootstrap file in this repo sets every imported agent to `opencode_local`. That is the current default and the simplest native-Paperclip setup.
 
-After the bootstrap succeeds, you can optionally switch the `ceo` back to `codex_local` while leaving the rest of the specialists on `opencode_local`. That hybrid arrangement worked well in local MVP testing.
+After the bootstrap succeeds, you can optionally switch `ceo` to a different model or adapter while leaving the rest of the specialists on `opencode_local`.
 
 ### Premium
 
